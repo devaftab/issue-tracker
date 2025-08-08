@@ -31,10 +31,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Theme>
-        <NavBar />
-        <main>
-          {children}
-        </main>
+          <NavBar />
+          <main className='px-5'>{children}</main>
         </Theme>
         
       </body>
